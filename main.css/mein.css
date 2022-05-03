@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width:140px){
+
+/* Propiedades del padre */
+
+header{
+    background-color: #730217D9;
+    padding: 15px;
+}
+
+
+body{
+    background-image: url("../img/fondo.jpg");
+    min-height: 100vh;
+}
+
+div nav ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+div nav ul li{
+    list-style:none;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+div nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 0.68rem;
+    font-weight:bold;
+    margin: 6px;
+}
+
+div nav ul li:hover{
+    background-color: #c50d2ed9;
+    padding: 5px;
+}
+
+.sacarSub{
+    text-decoration: none;
+}
+
+.nombreDire{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.2rem;
+    text-align: center;
+}
+
+.padreMain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.padreMain h2{
+    color: white;
+    text-align: center;
+    background-color: #730217D9;
+    padding: 5px;
+}
+
+.padreMain p{
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    background-color: #F0EBEF;
+    font-weight: bold;
+}
+
+.padreMain img{
+    display: block;
+    width: 320px;
+    padding-bottom: 5px;
+}
+
+/*Estilos Peliculas*/
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.largometrajes{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: auto;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight:bold;
+    background-color: #730217D9;
+}
+
+.movie h2{
+    color: white;
+    text-align: center;
+    background-color: #730217D9;
+    padding: 5px;
+    font-family: 'Montserrat';
+}
+
+.movie h3{
+    color: white;
+    text-align: center;
+    background-color: #730217D9;
+    padding: 5px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+
+
+.movie p{
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    background-color: #F0EBEF;
+}
+
+.movie img{
+    width: 320px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.videoT{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#volverA{
+    padding-left: 110px;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+/*Estilos Contacto*/
+
+.cuerpo{
+    min-height: 100vh;
+}
+
+.contacto{
+    background-color: #730217D9;
+    margin-top: 35px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.contacto h2{
+    color: white;
+    margin: 10px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacto input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.contacto textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+} 
+
+#boton{
+    padding: 15px;
+    background-color: rgb(17, 66, 112);
+    color: white;
+    font-size: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;    
+}
+
+
+/*Estilos Footer*/
+
+footer{
+    background-color: #730217D9;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+footer div nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+footer div nav ul li:hover{
+    background-color: #c50d2ed9;
+}
+}
+
+@media only screen and (min-width:700px){
+
+body{
+    min-height: 70vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header section nav ul li a{
+    font-size: 15px;
+}
+
+main{
+    min-height: 80vh;
+}
+
+.padreMain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 740px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.padreMain h2{
+    color: white;
+    text-align: center;
+    background-color: #730217D9;
+    padding: 9px;
+}
+
+.padreMain p{
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    background-color: #F0EBEF;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.padreMain img{
+    padding-left: 0.9px;
+    padding-bottom: 5px;
+}
+
+.hijos{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Estilos Peliculas/Cortos*/
+
+.largometrajes{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 690px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight:bold;
+    background-color: #730217D9;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 540px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.movie h2{
+    color: white;
+    text-align: center;
+    background-color: #730217D9;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.movie p{
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    background-color: #F0EBEF;
+}
+
+.movie img{
+    display: block;
+    width: 450px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.videoT{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 280px;
+    width: 540px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#volverA{
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+/*Estilos Contacto*/
+
+.cuerpo{
+    min-height: 100vh;
+}
+
+.contacto{
+    background-color: #730217D9;
+    margin-top: 75px;
+    width: 450px;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.contacto h2{
+    color: white;
+    margin: 10px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacto input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.contacto textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+} 
+
+#boton{
+    padding: 15px;
+    background-color: rgb(17, 66, 112);
+    color: white;
+    font-size: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;    
+}
+
+/*Estilos footer*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    margin-top: 109px;
+}
+
+footer div nav ul{
+    padding: 5px;
+}
+
+footer div nav ul li a{
+    font-size: 15px;
+}
+}
+
+
+@media only screen and (min-width:760px){
+
+#volverA{
+    padding-left: 340px;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+
+#volverA{
+    padding-left: 550px;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+}    
+
+@media only screen and (min-width:1800px){
+
+#volverA{
+    padding-left: 850px;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+}
+
+
+    
