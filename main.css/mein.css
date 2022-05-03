@@ -20,21 +20,21 @@ body{
     min-height: 100vh;
 }
 
-div nav ul{
+nav ul{
     display: flex;
     justify-content: center;
     color: white;
     text-decoration: none;
 }
 
-div nav ul li{
+nav ul li{
     list-style:none;
     color: white;
     text-decoration: none;
     padding-top: 5px;
 }
 
-div nav ul li a{
+nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -44,7 +44,7 @@ div nav ul li a{
     margin: 6px;
 }
 
-div nav ul li:hover{
+nav ul li:hover{
     background-color: #c50d2ed9;
     padding: 5px;
 }
@@ -144,7 +144,6 @@ div nav ul li:hover{
     font-family: 'Montserrat';
     font-size: 25px;
 }
-
 
 .movie p{
     text-align: justify;
@@ -300,13 +299,6 @@ main{
     font-family: 'Montserrat', sans-serif;
     margin-right: auto;
     margin-left: auto;
-}
-
-.padreMain h2{
-    color: white;
-    text-align: center;
-    background-color: #730217D9;
-    padding: 9px;
 }
 
 .padreMain p{

@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media only screen and (min-width: 140px) {
+  /* Propiedades del padre */
+  header {
+    background-color: #730217D9;
+    padding: 15px; }
+    header .sacarSub {
+      text-decoration: none; }
+      header .sacarSub .nombreDire {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 0.2rem;
+        text-align: center; }
+  body {
+    background-image: url("../img/fondo.jpg");
+    min-height: 100vh; }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none; }
+    nav ul li {
+      list-style: none;
+      color: white;
+      text-decoration: none;
+      padding-top: 5px; }
+      nav ul li:hover {
+        background-color: #730217D9;
+        padding: 5px; }
+      nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        font-size: 0.68rem;
+        font-weight: bold;
+        margin: 6px; }
+  main .padreMain {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto; }
+    main .padreMain h2 {
+      color: white;
+      text-align: center;
+      background-color: #730217D9;
+      padding: 9px; }
+    main .padreMain .hijos {
+      display: flex;
+      flex-direction: column; }
+      main .padreMain .hijos img {
+        padding-left: 0.9px;
+        padding-bottom: 5px;
+        width: auto; }
+      main .padreMain .hijos p {
+        text-align: justify;
+        padding: 10px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 20px;
+        font-weight: bold; }
+  /*Estilos footer*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #730217D9;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; }
+    footer p {
+      padding-top: 10px;
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Montserrat'; }
+    footer div nav ul li a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'Montserrat';
+      font-size: 10px; }
+    footer div nav ul li:hover {
+      background-color: #c50d2ed9;
+      padding: 5px; }
+  /*Estilos Pages: Peliculas*/
+  .formato section .largometrajes {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: auto;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: #730217D9; }
+  .formato section .movie {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto; }
+    .formato section .movie h2 {
+      color: white;
+      text-align: center;
+      background-color: #730217D9;
+      padding: 5px;
+      font-family: 'Montserrat'; }
+    .formato section .movie h3 {
+      color: white;
+      text-align: center;
+      background-color: #730217D9;
+      padding: 5px;
+      font-family: 'Montserrat';
+      font-size: 25px; }
+    .formato section .movie div p {
+      text-align: justify;
+      padding: 10px;
+      color: black;
+      background-color: #F0EBEF; }
+    .formato section .movie div img {
+      width: 320px;
+      height: auto;
+      padding-bottom: 5px; }
+  .formato section .videoT {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto; }
+  .formato #volverA {
+    padding-left: 110px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 40px; }
+  /*Estilos Contacto*/
+  .cuerpo {
+    min-height: 100vh; }
+    .cuerpo .contacto {
+      background-color: #730217D9;
+      margin-top: 35px;
+      width: 100%;
+      padding: 10px 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 6rem;
+      box-sizing: border-box;
+      border-radius: 5px; }
+      .cuerpo .contacto form h2 {
+        color: white;
+        margin: 10px;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        text-align: center; }
+      .cuerpo .contacto form input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        border: none; }
+      .cuerpo .contacto form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        min-height: 100px;
+        max-height: 200px; }
+      .cuerpo .contacto form #boton {
+        padding: 15px;
+        background-color: #114270;
+        color: white;
+        font-size: 20px; }
+        .cuerpo .contacto form #boton:hover {
+          cursor: pointer; } }
+
+@media only screen and (min-width: 140px) and (min-width: 700px) {
+  body {
+    min-height: 70vh; }
+  header {
+    display: flex;
+    justify-content: space-around; }
+    header section nav ul li a {
+      font-size: 15px; }
+  main {
+    min-height: 80vh; }
+    main .padreMain {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: 700px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background-color: white;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      margin-right: auto;
+      margin-left: auto; }
+      main .padreMain .hijos {
+        display: flex;
+        flex-direction: row; }
+        main .padreMain .hijos p {
+          text-align: justify;
+          padding: 10px;
+          color: black;
+          background-color: #F0EBEF;
+          float: left;
+          font-size: 20px;
+          font-weight: bold; }
+        main .padreMain .hijos img {
+          padding-left: 0.9px;
+          padding-bottom: 5px; }
+  /*Estilos Peliculas/Cortos*/
+  .formato section .largometrajes {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 690px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: #730217D9; }
+  .formato section .movie {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 540px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto; }
+    .formato section .movie h2 {
+      color: white;
+      text-align: center;
+      background-color: #730217D9;
+      padding: 5px;
+      margin-bottom: 5px; }
+    .formato section .movie div p {
+      text-align: justify;
+      padding: 10px;
+      color: black;
+      background-color: #F0EBEF; }
+    .formato section .movie div img {
+      display: block;
+      width: 450px;
+      height: auto;
+      padding-bottom: 5px;
+      margin-left: 40px;
+      margin-right: 40px; }
+  .formato section .videoT {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 280px;
+    width: 540px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto; }
+  .formato #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos Contacto*/
+  .cuerpo {
+    min-height: 100vh; }
+    .cuerpo .contacto {
+      background-color: #730217D9;
+      margin-top: 75px;
+      width: 450px;
+      padding: 10px 20px;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+      border-radius: 5px; }
+      .cuerpo .contacto form h2 {
+        color: white;
+        margin: 10px;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        text-align: center; }
+      .cuerpo .contacto form input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        border: none; }
+      .cuerpo .contacto form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        min-height: 100px;
+        max-height: 200px; }
+      .cuerpo .contacto form #boton {
+        padding: 15px;
+        background-color: #114270;
+        color: white;
+        font-size: 20px; }
+        .cuerpo .contacto form #boton:hover {
+          cursor: pointer; } }
+
+/*Estilos footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  margin-top: 109px; }
+  footer div nav ul {
+    padding: 5px; }
+    footer div nav ul li a {
+      font-size: 15px; }
+
+@media only screen and (min-width: 760px) {
+  .formato #volverA {
+    padding-left: 340px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; } }
+
+@media only screen and (min-width: 1000px) {
+  .formato #volverA {
+    padding-left: 550px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos footer*/
+  footer {
+    display: flex;
+    flex-direction: row; } }
+
+@media only screen and (min-width: 1800px) {
+  .formato #volverA {
+    padding-left: 850px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; } }
